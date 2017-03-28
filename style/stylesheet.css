@@ -1,0 +1,247 @@
+#tjänster{
+
+}
+#om-oss{
+
+}
+#kontakt{
+
+}
+#boka{
+
+}
+.button{
+
+}
+
+.red {
+
+	background-color: red;
+}
+.no-padding{
+	padding: 0;
+}
+.no-margin-top{
+	margin-top: 0;
+}
+.no-margin{
+	margin: 0;
+}
+ #logo{
+	height: 45px;
+	width: auto;
+}
+.no-background{
+	background-color: transparent;
+}
+.no-border{
+	border:0;
+}
+.background-grey{
+	background-color: #191919;
+}
+.divider2{
+	height: 1px;
+	background-color: grey;
+	background-size: cover;
+}
+
+.footer{
+	padding: 30px;
+}
+.divider-text{
+	color: #a0a09f;
+	margin: 0;
+	padding: 0;
+}
+.background-image{
+	text-align: center;
+	/*background-image: url("https://static.wixstatic.com/media/62fcc7_952fd0b1ea3149838c5ffa91cf817f8e~mv2.jpg/v1/fill/w_1024,h_446,al_c,q_85/62fcc7_952fd0b1ea3149838c5ffa91cf817f8e~mv2.jpg");*/
+	background-image: url("https://images6.alphacoders.com/488/488157.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.jumbotron{
+	margin: 0px;
+	background-color: transparent;
+}
+.navbar-toggle{
+	background-color: #191919!important;
+}
+.navbar-toggle:hover{
+	background-color: #2C2C2C!important;
+}
+.navbar{
+	margin: 0;
+}
+.active2{
+	background-color: #2C2C2C;
+}
+.active2 a{
+	color: grey!important;
+}
+.username-header{
+	color:#3189EB!important;
+}
+
+#second-heading-jumbotron {
+	margin-bottom: 80px;
+}
+.white{
+	color: white;
+}
+.margin-top-bottom{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.rounded-circle{
+	border-radius: 50%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.button-style{
+	width: 150px;
+	border-radius: 50px;
+	background-color: #3189EB;
+	margin: 50px;
+	border: 0;
+}
+.socialLogo {
+	display: flex;
+	justify-content: center;
+}
+
+.socialLogo img {
+
+	display:inline;
+	width: 20px;
+	height: 20px;
+	margin: 3px;
+
+}
+.section-margin{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.tagga {
+	text-align: center;
+	color: grey;
+}
+#login-background {
+	border: 1px;
+	border-radius: 10px;
+	padding: 50px;
+	padding-bottom: 0;
+  background: rgb(255, 255, 255); /* Fall-back for browsers that don't                                    support rgba */
+  background: rgba(255, 255, 255, .8);
+}
+.transparent-background{
+	border: 1px;
+	border-radius: 10px;
+	padding: 50px;
+	padding-bottom: 0;
+  background: rgb(255, 255, 255); /* Fall-back for browsers that don't                                    support rgba */
+  background: rgba(255, 255, 255, .7);
+}
+.login-placeholder{
+
+}
+.login{
+
+}
+#login-frontpage{
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.header-style{
+	height: 70px;
+	margin: 0;
+
+}
+.align-center{
+	text-align: center;
+}
+.heading-style{
+	text-align: center;
+	color: grey;
+}
+.package1{
+	padding: 20px;
+ height: 250px;
+ background-color: #2464AB;
+ text-align: center;
+ color: white;
+
+}
+
+.package2 {
+	padding: 20px;
+ height: 250px;
+ background-color: #163F6B;
+ text-align: center;
+ color: white;
+
+}
+
+.package3 {
+	padding: 20px;
+ height: 250px;
+ background-color: #3189EB;
+ text-align: center;
+ color: white;
+
+}
+
+.package4 {
+	padding: 20px;
+ height: 250px;
+ background-color: #2C7AD1;
+ text-align: center;
+ color: white;
+
+}
+#desc{
+	width: 150px;
+	height: 75px;
+}
+#map {
+	 margin-top: 80px;
+     height: 450px;
+     width: 100%;
+ }
+ .border {
+ 	border: 1px solid black;
+ }
+
+ .transbox {
+   margin: 30px;
+   background-color: #ffffff;
+   border: 1px solid black;
+   opacity: 0.7;
+   filter: alpha(opacity=60); /* For IE8 and earlier */
+ }
+
+ .borderField {
+ 	border: 2px solid black;
+ }
+
+ .textSize {
+
+ color: #2E2E2E;
+ font-size: 17px
+ }
+
+ .booking-background {
+
+ 	text-align: center;
+ 	background-image: url("https://images6.alphacoders.com/488/488157.jpg");
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+
+ .ramForBooking{
+
+ margin-bottom: 45px;
+
+ }

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <meta charset="utf-8">
+  <meta name="viewport" content="witdth=devicewidth, initial-scale=1">
+  <link type="text/css" rel="stylesheet" href=".\style\stylesheet.css"/>
+  <link rel="shortcut icon" type="image/x-icon" href=".\img\Head_Logo.ico" />
+  <link rel="stylesheet" href=".\jquery-ui\jquery-ui.min.css">
+  <script src=".\external/jquery/jquery.js"></script>
+  <script src=".\jquery-ui\jquery-ui.min.js"></script>
+  	<title>TaggaDig</title>
+
+</head>
+<body>
+<div class="container-fluid no-padding">
+
+  <!-- Static navbar -->
+  <header class="background-grey">
+  <nav class="navbar navbar-default no-background no-border">
+  <div class="col-md-2">
+  </div>
+    <div class="col-md-8 container-fluid" >
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#"><img id="logo" src=".\img\Logo.png"></a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="button"><a href="#">Hem</a></li>
+          <li class="button active2"><a href="#">Boka</a></li>
+          <li class="button"><a href="#">Tjänster</a></li>
+          <li class="button"><a href="#">Om oss</a></li>
+          <li class="button"><a href="#">Kontakta oss</a></li>
+          <li class="button"><a class="login" href="#">Logga in</a></li>
+          <li id="register"><a href="#">Registrera</a></li>
+          <li><a class="username-header" href="#">Inloggad som</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+    <div class="col-md-2">
+    </div>
+      </nav>
+      </header>
+
+          <section>
+            <div style="text-align: auto" class="jumbotron googlebild no-padding">
+            <section>
+              <div id="map"></div>
+              <div class="row">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4 align-center">
+                <button id="boka" class="btn btn-lg btn-primary button-style login">Boka<a  href="#" role="button"></a>
+                </div>
+                <div class="col-md-4">
+                </div>
+              </div>
+               </button>
+            </section>
+          <section>
+              </div>
+
+
+
+            <article>
+               <div class="row">
+               <div class="line2 col-md-12">
+               <div class="heading-style">
+               <h2>Svårt att välja?</h2>
+               <h4>Välj bland våra färdiga paket som passar ditt företag bäst</h4>
+               </div>
+                </div>
+            </article>
+
+             </section>
+
+            <div class="row">
+              <div class="col-md-12 boka">
+                <div class=" border row placeholders">
+                  <div class="col-md-3 placeholder package1">
+                  <h2 class="no-margin-top">Paket 1</h2>
+                  <p>I’m a paragraph. Double click me or click Edit Text, it's easy.</p>
+                  </div>
+                  <div class="col-md-3 placeholder package2">
+                  <h2 class="no-margin-top">Paket 2</h2>
+                  <p>I’m a paragraph. Double click me or click Edit Text, it's easy.</p>
+                  </div>
+                  <div class="col-md-3 placeholder package3">
+                  <h2 class="no-margin-top">Paket 3</h2>
+                  <p>I’m a paragraph. Double click me or click Edit Text, it's easy.</p>
+                  </div>
+                  <div class="col-md-3 placeholder package4">
+                  <h2 class="no-margin-top">Paket 4</h2>
+                  <p>I’m a paragraph. Double click me or click Edit Text, it's easy.</p>
+                  </div>
+                </div>
+              </div>
+            </div> <!--row-->
+
+</div><!--/.container-fluid -->
+
+<footer class="footer background-grey">
+<div class="tagga">
+  <p class="glyphicon glyphicon-copyright-mark">2017 by TaggaDig</p>
+  </div>
+<div class="socialLogo" >
+  <a href="https://www.google.se/maps/place/G%C3%B6teborg/@57.701646,11.6128242,10z/data=!3m1!4b1!4m5!3m4!1s0x464f8e67966c073f:0x4019078290e7c40!8m2!3d57.70887!4d11.97456?hl=sv"><img src=".\img\Google_Maps_logo.png"></a>
+  <a href="https://facebook.com/"><img src=".\img\Facebook_logo.png"></a>
+  <a href="https://twitter.com/"><img src=".\img\Twitter_logo.png"></a>
+  <a href="https://plus.google.com/"><img src=".\img\Google_Plus_logo.png"></a>
+</div>
+</footer>
+
+                <div id="registerform" title="REGISTRERING">
+                  <form>
+                    <fieldset>
+                     <label>Förnamn:</label>
+                     <br>
+                     <input type="text" name="firstName" value="" placeholder="Förnamn"/><br>
+                     <br>
+                     <br>
+                     <label>Efternamn:</label>
+                     <br>
+                     <input type="text" name="lastName" value="" placeholder="Efternamn"/><br>
+                     <br>
+                     <br>
+                     <label>Email:</label>
+                     <br>
+                     <input type="text" name="email" value="" placeholder="Epost" /><br>
+                     <br>
+                     <br>
+                     <label>Telefonnr:</label>
+                     <br>
+                     <input type="text" name="phoneNumber" value="" placeholder="Telefonnr"/><br>
+                     <br>
+                     <br>
+                     <label>Företagsnamn:</label>
+                     <br>
+                     <input type="text" name="businessName" value="" placeholder="Företagsnman"/><br>
+                     <br>
+                     <br>
+                     <label>Lösenord:</label>
+                     <br>
+                     <input type="text" name="password" value="" placeholder="Lösenord"/><br>
+                     <br>
+                     <label>Upprepa lösenord:</label>
+                     <br>
+                     <input type="text" name="password" value="" placeholder="Lösenord"/><br>
+                     <br>
+                     <br>
+                     <label>Beskrivning:</label>
+                     <br>
+                     <input type="text" id="desc" name="description" value="" placeholder="Beskrivning" /><br>
+                     <br>
+                     <br>
+                     <label>Fil uppladdning</label>
+                     <br>
+                     <input type="file" id="myFile">
+                     <br>
+                     <br>
+                     <br>
+                <button type="button">Registrera</button>
+                </fieldset>
+                </form>
+                </div>
+
+
+
+
+
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src=".\script\mainscript.js"></script>
+<script src=".\script\map-script.js"></script>
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBadYreLXUab7Ssq5A7WEJ1yzpIJ20yKco&callback=initMap"></script>
+</body>
+</html>
