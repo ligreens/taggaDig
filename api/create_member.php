@@ -23,10 +23,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $sql = "SELECT COUNT(*) AS 'db_rows' FROM `members`\r\n                WHERE email = :mail";
         $stm_count = $pdo->prepare($sql);
         $stm_count->execute(['mail' => $_POST['email']]);
-        foreach ($stm_count as $row) {
-            $rows = $row['db_rows'];
-        }
-        if ($rows > 0) {
+        // foreach ($stm_count as $row) {
+        //     $rows = $row['db_rows'];
+        // }
+        if ($sql > 0) {    //if ($rows > 0) {
             echo "Finns redan";
         } else {
             $sql = "INSERT INTO `members` (`business`, `firstName`, `lastName`, `email`, `phone`, `password`, `salt`, `user_type`)\r\n                VALUES( :businessName, :fName, :lName, :mail, :tel, :pass, :salt, '1')";
